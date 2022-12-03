@@ -1,28 +1,31 @@
 :root {
   --main-color: #7bbfb1;
-  --secondary-color:#256e5e;
+  --secondary-color: #256e5e;
   --default-font: "Poppins", sans-serif;
   --heading-font: "Playfair Display", serif;
 }
 
-h2 {
+body {
+  font-family: var(--default-font);
+}
+.hero h2 {
   font-family: var(--default-font);
   margin-top: 20px;
   font-size: 36px;
   font-weight: 700;
 }
 
-h1 {
-    font-family: var(--heading-font);
-    font-weight: 700;
-    font-size: 96px;
-    margin-bottom: 25px;
+.hero h1 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 96px;
+  margin-bottom: 25px;
 }
 
-p{
-    font-family: (--default-font);
-    font-weight: 400;
-    font-size: 24px;
+.hero p {
+  font-family: (--default-font);
+  font-weight: 400;
+  font-size: 24px;
 }
 .hero {
   text-align: center;
@@ -31,18 +34,59 @@ p{
 }
 
 .btn-contact {
-    background-color: var(--secondary-color);
-    color: white;
-    text-decoration: none;
-    padding: 15px 25px;
-    font-size:18px;
-    border-radius: 4px;
-    transition: all 200ms ease-in-out;
+  background-color: var(--secondary-color);
+  color: white;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: all 200ms ease-in-out;
 }
 
 .btn-contact:hover {
-    text-decoration: none;
-    background-color: white;
-    color:var(--secondary-color);
+  text-decoration: none;
+  background-color: white;
+  color: var(--secondary-color);
+}
 
+.introducing-projects {
+  font-size: 18px;
+}
+
+.project-images {
+  width: 400px;
+}
+
+.project-description {
+  padding: 0px 30px;
+}
+
+.btn-project {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+.btn-project:hover {
+  text-decoration: none;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .hero {
+    padding: 50px;
+  }
+  .hero h1 {
+    font-size: 35px;
+  }
+  .hero h2 {
+    font-size: 30px;
+    line-height: 1.5;
+  }
 }
