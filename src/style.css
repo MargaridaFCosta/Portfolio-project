@@ -1,6 +1,7 @@
 :root {
-  --main-color: #7bbfb1;
-  --secondary-color: #256e5e;
+  --main-color: rgb(45, 162, 172);
+  --secondary-color: rgb(255, 139, 64);
+  --font-color: whitesmoke;
   --default-font: "Poppins", sans-serif;
   --heading-font: "Playfair Display", serif;
 }
@@ -10,6 +11,7 @@ body {
 }
 .hero h2 {
   font-family: var(--default-font);
+  color: var(--font-color);
   margin-top: 20px;
   font-size: 36px;
   font-weight: 700;
@@ -29,13 +31,14 @@ body {
 }
 .hero {
   text-align: center;
-  background-color: rgba(123, 191, 177, 0.3);
+  background-color: var(--main-color);
   padding: 176px;
+  color: var(--font-color);
 }
 
 .btn-contact {
   background-color: var(--secondary-color);
-  color: white;
+  color: var(--font-color);
   text-decoration: none;
   padding: 15px 25px;
   font-size: 18px;
@@ -45,7 +48,7 @@ body {
 
 .btn-contact:hover {
   text-decoration: none;
-  background-color: white;
+  background-color: var(--font-color);
   color: var(--secondary-color);
 }
 
@@ -63,14 +66,14 @@ body {
 
 .btn-project {
   background-color: var(--secondary-color);
-  color: white;
+  color: var(--font-color);
   padding: 15px 25px;
   text-decoration: none;
 }
 .btn-project:hover {
   text-decoration: none;
   background-color: var(--main-color);
-  color: var(--secondary-color);
+  color: var(--font-color);
 }
 
 @media (max-width: 900px) {
