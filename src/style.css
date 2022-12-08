@@ -167,4 +167,11 @@ body {
   .my-photo {
     padding-top: 30px;
   }
+
+}
+@media (max-width: 1200px) {
+  .contact-section {
+    margin: 40px;
+    padding: 5px;
+  }
 }
