@@ -79,7 +79,6 @@ body {
 .about-section {
   padding: 176px;
 }
-
 .about-section h1 {
   font-size: 60px;
   font-family: var(--heading-font);
@@ -99,6 +98,27 @@ body {
 .my-photo {
   width: 450px;
   border-radius: 4px;
+}
+.projects-section {
+  padding: 100px;
+  border: solid var(--main-color);
+}
+
+.page-title {
+  font-size: 60px;
+  font-family: var(--heading-font);
+  padding: 40px;
+  text-align: center;
+}
+
+.coding-description {
+  font-size: 14px;
+}
+
+.work-images {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 900px) {
@@ -120,6 +140,21 @@ body {
 
   .about-section h1 {
     font-size: 40px;
+  }
+
+  .page-title {
+    font-size: 30px;
+  }
+
+  .projects-section {
+    padding:50px;
+  }
+
+  .projects-section h3 {
+    font-size: 17px;
+  }
+  .coding-description {
+    font-size: 12px;
   }
 }
 
