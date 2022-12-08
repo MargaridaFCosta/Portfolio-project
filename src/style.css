@@ -37,6 +37,10 @@ nav h3 a:hover {
   color: var(--main-color);
 }
 
+footer {
+  padding: 30px;
+}
+
 .hero h2 {
   font-family: var(--default-font);
   color: var(--font-color);
@@ -97,6 +101,7 @@ nav h3 a:hover {
   color: var(--font-color);
   padding: 15px 25px;
   text-decoration: none;
+  border-radius: 4px;
 }
 .btn-project:hover {
   text-decoration: none;
@@ -158,6 +163,37 @@ nav h3 a:hover {
   color: var(--main-color);
 }
 
+.container-contact {
+  background-color: var(--font-color);
+  padding: 30px;
+  color: var(--main-color);
+  border-radius: 4px;
+}
+
+.social-links a {
+  margin: 0 20px;
+  padding: 10px 14px;
+  font-size: 20px;
+  color: var(--font-color);
+  background-color: var(--main-color);
+  border-radius: 50%;
+}
+
+.social-links a:hover {
+  color: var(--main-color);
+  background-color: var(--font-color);
+}
+
+.mail-me {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.mail-me:hover {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   .project-description {
     text-align: center;
@@ -195,6 +231,9 @@ nav h3 a:hover {
   }
   nav h3 a,
   .link-pages {
+    font-size: 14px;
+  }
+  .mail-me {
     font-size: 14px;
   }
 }
