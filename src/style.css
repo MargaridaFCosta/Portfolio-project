@@ -76,6 +76,31 @@ body {
   color: var(--font-color);
 }
 
+.about-section {
+  padding: 176px;
+}
+
+.about-section h1 {
+  font-size: 60px;
+  font-family: var(--heading-font);
+}
+
+.about-section h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.my-photo {
+  width: 450px;
+  border-radius: 4px;
+}
+
 @media (max-width: 900px) {
   .project-description {
     text-align: center;
@@ -91,5 +116,20 @@ body {
   .hero h2 {
     font-size: 30px;
     line-height: 1.5;
+  }
+
+  .about-section h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 995px) {
+  .about-section {
+    padding: 50px;
+    text-align: center;
+  }
+
+  .my-photo {
+    padding-top: 30px;
   }
 }
