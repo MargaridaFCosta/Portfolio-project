@@ -194,6 +194,15 @@ footer {
   color: var(--secondary-color);
 }
 
+.contact-links {
+  text-decoration: none;
+  color: var(--main-color);
+}
+.contact-links:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   .project-description {
     text-align: center;
