@@ -205,15 +205,31 @@ footer {
 
 .contact-section {
   text-align: center;
-  background-color: var(--back-color-color);
-  padding:50px;
+  background-color: var(--back-color);
+  padding: 50px;
   border-radius: 4px;
 }
 
 .footer-contact-page {
-  margin-top:100px;
+  margin-top: 100px;
 }
 
+.link-projects {
+  transition: all 150ms ease-in-out;
+}
+
+.link-projects:hover {
+  background-color: var(--back-color);
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.page-title-contact {
+  font-size: 60px;
+  font-family: var(--heading-font);
+  padding: 40px;
+  text-align: center;
+}
 @media (max-width: 900px) {
   .project-description {
     text-align: center;
@@ -236,7 +252,9 @@ footer {
   }
 
   .page-title {
-    font-size: 30px;
+    font-size: 25px;
+    padding: 20px;
+    margin: 0px;
   }
 
   .projects-section {
@@ -256,6 +274,18 @@ footer {
   .mail-me {
     font-size: 14px;
   }
+
+  .link-projects:hover {
+    padding: 10px;
+  }
+
+  .page-title-contact {
+    font-size: 30px;
+    padding: 5px;
+  }
+  .footer-contact-page {
+    margin-top: 15px;
+  }
 }
 
 @media (max-width: 995px) {
@@ -271,6 +301,7 @@ footer {
 @media (max-width: 1200px) {
   .contact-section {
     margin: 40px 0px;
-    
+    padding: 10px;
+    font-size: 14px;
   }
 }
